@@ -1,0 +1,126 @@
+
+
+/*
+Reference : 
+[1] : "css3 transition animation on load? ". https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load
+
+*/
+
+
+
+
+/* global */
+
+html, body {
+    height: 100%;
+}
+
+/* Ref:[1] */
+@keyframes slide_left_to_right {
+    0% {
+      transform: translateX(-40%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+
+
+
+/* id */
+
+#title-banner{
+    width: 100%;
+    height: 52.5%;
+    
+    background-color:#f0e8f3;
+}
+
+
+#title-banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 0.5% 0%;
+    margin: auto;
+
+    height: 67.5%;
+
+    /* align center (without using flex)*/
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title-banner-icon{
+    height:95%;
+    border-radius: 100%;
+}
+
+#title-banner-text{
+    margin: auto 8%;
+    font-family: sans-serif;
+
+    /* Ref:[1] */
+    animation-duration: 1s;                 /* the duration of the animation */
+    animation-timing-function: ease-out;    /* how the animation will behave */
+    animation-delay: 0s;                    /* how long to delay the animation from starting */
+    animation-iteration-count: 1;           /* how many times the animation will play */
+    animation-name: slide_left_to_right;    /* the name of the animation we defined above */
+    
+}
+#title-banner-text h1{
+    font-size: 500%;
+    font-weight: bold;
+}
+#title-banner-text h2{
+    font-size: 370%;
+}
+
+
+/* class */
+.my-icon{
+    height:16px;
+}
+
+.content-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin:0.5% 8% 2% 8%;
+}
+
+.content-card-box{
+    margin:5% 2%;
+    padding: 5% 8%;
+
+    box-shadow:2px 10px 16px -4px rgba(0,0,0,0.2);
+}
+
+.content-card-box h1{
+    /*font-size:1.2em;*/
+}
+
+.content-card-box hr{
+    width: 45%;
+}
+
+
+
+/* footer */ 
+.footer-box{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(103, 110, 112, 0.616);
+
+    display: flex;
+    flex-direction: row;
+
+}
