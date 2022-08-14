@@ -30,8 +30,6 @@ function greetings(){
 }
 
 
-
-
 function print(variable){
     console.log(variable);
 }

@@ -115,6 +115,11 @@ body{
     font-weight: bold;
 }
 
+.content-card-box p{
+    font-size:1.2em;
+}
+
+
 .content-card-box hr{
     width: 45%;
 }

@@ -4,7 +4,7 @@
 
 @keyframes slide_top_to_bottom {
     0% {
-      transform: translateY(-5%);
+      transform: translateY(-2.5%);
       opacity: 0;
     }
     100% {
@@ -32,7 +32,7 @@
         padding: 0.5% 0%;
         margin-bottom: 3%;
     
-        height: 85%;
+        height: 88%;
     
     }
 
@@ -43,7 +43,7 @@
     }
 
     #title-banner-text{
-        margin: 3% 1%;
+        margin: 5% 1%;
         font-family: sans-serif;
     
         animation-name: slide_top_to_bottom;
