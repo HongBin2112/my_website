@@ -23,7 +23,7 @@ body{
 
 @keyframes slide_left_to_right {
     0% {
-      transform: translateX(-40%);
+      transform: translateX(-5%);
       opacity: 0;
     }
     100% {
@@ -115,14 +115,20 @@ body{
     font-weight: bold;
 }
 
-.content-card-box p{
-    font-size:1.2em;
-}
-
 
 .content-card-box hr{
     width: 45%;
 }
+
+.content-card-content-box p{
+    font-size:1.2em;
+    margin-bottom: 4px;
+}
+
+.content-card-content-box br{
+    margin: 8px 0;
+}
+
 
 
 
