@@ -1,5 +1,11 @@
+const repo_api_url_base = "https://api.github.com/repos/HongBin2112/my_website/contents/";
+const about_me_dl_url = "https://raw.githubusercontent.com/HongBin2112/my_website/main/assets/text/about_me.txt";
+
+
 
 set_greetings();
+set_about_me_text();
+
 
 
 
@@ -28,6 +34,65 @@ function greetings(){
 
     return s;
 }
+
+
+function fetch_githubfile(github_api_url) {
+
+	const headers = new Headers();
+	headers.append('Accept', 'application/vnd.github.v3+json');
+	
+	let promise_result;
+	
+	promise_result = fetch(github_api_url, {
+		method: "GET",
+		headers: headers
+	})
+	.then((response) => {		
+		return response;
+	})
+	.catch((error) => {
+		console.log(`Error: ${error}`);
+	})
+	
+	return promise_result;
+}
+
+
+function get_about_me_text(){
+    let about_me_txt = fetch_githubfile(about_me_dl_url).then((contents) => {
+        return contents.text();
+    }).catch((error) => {
+        console.log(`File to txt Error: ${error}`);
+    })
+
+    return about_me_txt;
+}
+
+function trans_about_me_text_to_html(texts){
+    let texts_arr = texts.split('\n');
+    let content = texts.split('\n');
+
+    for(let i=0; i<texts_arr.length; i++){
+        if(texts_arr[i] === ""){ content[i] = "<br>" }
+        else{
+            content[i] = "<p>" + texts_arr[i] + "</p>";
+        }
+    }
+
+    return content.join("\n");
+}
+
+function set_about_me_text(){
+    get_about_me_text().then((texts) => {
+        let about_me_element = document.getElementById("about-me-text");
+        let content = trans_about_me_text_to_html(texts);
+
+        about_me_element.innerHTML = content;
+    })
+
+}
+
+
 
 
 function print(variable){
