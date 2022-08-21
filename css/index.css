@@ -2,7 +2,8 @@
 
 /*
 Reference : 
-[1] : "css3 transition animation on load? ". https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load
+[1] : "css3 transition animation on load? " ; https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load
+[2] : "【分享】CSS-底線畫起來!底線動起來+尾聲 " ; https://ithelp.ithome.com.tw/articles/10279532 
 
 */
 
@@ -130,7 +131,6 @@ body{
     outline:none;
     background-color: transparent;
     border: none;
-    border-radius: 16px;
 
     font-family:"cwTeXYen";
     font-size:1.25em;
@@ -139,12 +139,23 @@ body{
     transition : 0.4s;
 }
 
+.content-options-box button::after{
+    content:" ";
+    display:block; 
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    transition: .3s;
+  }
+
 .content-options-box button:hover{
-    
     opacity : 1;
-    transform : scale(1.01);
+    transform : scale(1.05);
 }
 
+.content-options-box button:hover::after{
+    width:100%;
+}
 
 
 
