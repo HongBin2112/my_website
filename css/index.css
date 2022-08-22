@@ -12,6 +12,7 @@ Reference :
 
 /* global */
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
 html, body {
     height: 100%;
 }
@@ -37,6 +38,24 @@ body{
 
 
 /* ID */
+
+#about-me{
+    visibility:visible;
+    display: block;
+    max-height: fit-content;
+}
+
+
+#about-this-page{
+    visibility:hidden;
+    display: none;
+}
+
+#others{
+    visibility:hidden;
+    display: none;
+}
+
 
 /* ID -> title */
 #title-banner{
@@ -91,6 +110,14 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
 /* CLASS */
 .my-icon{
     height:16px;
@@ -98,6 +125,13 @@ body{
 
 
 
+.content-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin:0.5% 18% 2% 18%;
+}
 
 
 
@@ -109,6 +143,7 @@ body{
     justify-content: center;
     align-items:center;
     flex-direction: row;
+    
 }
 
 .content-options-box ul{
@@ -163,21 +198,13 @@ body{
 
 
 
-
-.content-box{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    margin:0.5% 8% 2% 8%;
-}
-
-
 .content-card-box{
     margin:4% 2%;
-    padding: 2% 8%;
+    padding: 2.5% 5.5%;
 
     box-shadow:2px 10px 16px -4px rgba(0,0,0,0.2);
+    transition:0.4s;
+    /*text-align: center;*/
 }
 
 .content-card-box h1{
