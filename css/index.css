@@ -171,7 +171,7 @@ body{
     font-size:1.25em;
     font-weight: bold;
 
-    transition : 0.4s;
+    transition : 0.25s ease-in;
 }
 
 .content-options-box button::after{
@@ -231,10 +231,34 @@ body{
 
 
 
+.brief-intro-card-box{
+    padding: 1% 0;
+    width: 100%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+}
+
+.brief-intro-card-img{
+    width: 22.5%;
+    max-height: 330px;
+    margin: 0 auto 0 2%;
+
+}
+
+.brief-intro-card-text{
+    width: 65%;
+    margin: 0 auto 0 2%;
+}
+
+
+
 /* footer */ 
 .footer-box{
     width: 100%;
-    height: auto;
+    height: 16%;
     background-color: #0b3e34a6;
     color: #FFFFFF;
 

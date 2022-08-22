@@ -28,14 +28,14 @@ function content_options_onclick(clicked_btn_option_id){
             
             setTimeout(function() {
                 option_element.style.display = "none";
-              }, 400);
+              }, 300);
         } else {
             option_element.style.visibility = "visible";
-            option_element.style.opacity = "1";
-
+            
             setTimeout(function() {
                 option_element.style.display = "block";
-              }, 400);
+                option_element.style.opacity = "1";
+              }, 300);
         }            
     }
 }
