@@ -73,7 +73,8 @@ function trans_about_me_text_to_html(texts){
     let content = texts.split('\n');
 
     for(let i=0; i<texts_arr.length; i++){
-        if(texts_arr[i] === ""){ content[i] = "<br>" }
+        if(texts_arr[i] === "") { content[i] = "<br>" }
+        else if(texts_arr[i][0] === "$") { content[i] = texts_arr[i];}
         else{
             content[i] = "<p>" + texts_arr[i] + "</p>";
         }

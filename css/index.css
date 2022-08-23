@@ -34,6 +34,11 @@ body{
     }
 }
 
+@media screen and (max-width: 500px){
+    .only-on-screen-larger-500px{
+        display: none;
+    }
+}
 
 
 
@@ -84,7 +89,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-#title-banner-icon{
+#title-banner-content img{
     height:95%;
     border-radius: 100%;
 }
@@ -146,21 +151,26 @@ body{
     
 }
 
-.content-options-box ul{
-    width: 100%;
-    margin: 0%;
-
-    display:flex;
-    justify-content: center;
-    flex-direction: row;
+/* becareful! below 2 setting are ID setting, and only implement when screen>500px. */
+@media screen and (min-width: 500px){
+    #content-options-list{
+        width: 100%;
+        margin: 0%;
+    
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    #content-options-list li{
+        list-style-type:none;
+        margin:0% 1.5%;
+    
+        font-weight: bold;
+    }
 }
 
-.content-options-box li{
-    list-style-type:none;
-    margin:0% 1.5%;
-
-    font-weight: bold;
-}
 
 .content-options-box button{
     outline:none;
@@ -231,6 +241,8 @@ body{
 
 
 
+
+
 .brief-intro-card-box{
     padding: 1% 0;
     width: 100%;
@@ -264,7 +276,7 @@ body{
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .footer-box p{
@@ -278,7 +290,7 @@ body{
 .footer-content-box{
     margin: 2.8% 2.5%;
     /*margin-bottom: 3.5%;*/
-    width: 27%;
+    width: auto;
     
     display: flex;
     flex-direction: column;

@@ -89,7 +89,7 @@
     <div id="title-banner">
       <div id="title-banner-content">
 
-        <img id="title-banner-icon" src="./assets/myicon.jpeg" class="img-fluid" alt="title banner image.">
+        <img src="./assets/myicon.jpeg" class="img-fluid" alt="title banner image.">
 
         <div id="title-banner-text">
           <h2><p class="greetings"> Hello, </p>I am </h2>
@@ -101,12 +101,30 @@
 
 
     <div class="content-options-box">
-      <ul id="content-options-list">
-        <li><button type="button" id="btn-about-me" onclick="content_options_onclick()">關於我 About me</button></li>
-        <li>|</li>
-        <li><button type="button" id="btn-about-this-page" onclick="content_options_onclick()">關於網頁 About this page</button></li>
-        <li>|</li>
-        <li><button type="button" id="btn-others" onclick="content_options_onclick()">其他 Others</button></li>
+      <ul id="content-options-list" class="list-group list-group-light">
+
+        <li class="list-group-item px-3 border-0" aria-current="true"> 
+          <button type="button" id="btn-about-me" onclick="content_options_onclick()">
+            關於我 About me
+          </button>
+        </li>
+
+        <li class="only-on-screen-larger-500px">|</li>
+
+        <li class="list-group-item px-3 border-0"> 
+          <button type="button" id="btn-about-this-page" onclick="content_options_onclick()">
+            關於網頁 About this page
+          </button>
+        </li>
+        
+        <li class="only-on-screen-larger-500px">|</li>
+
+        <li class="list-group-item border-0"> 
+          <button type="button" id="btn-others" onclick="content_options_onclick()">
+            其他 Others
+          </button>
+        </li>
+
       </ul>
     </div>
 
@@ -224,13 +242,18 @@
         </a>
       </div>
 
+      
       <div id="special-thanks" class="footer-content-box">
-        <p style="font-size: 16px; margin: 6px;">Special thanks</p>
-        
-        <p>Zhao, Jian-Xiang</p>
-        <p><a href="https://github.com/DongDong-Zoez">DongDong</a></p>
-	<p>Gino</p>
+        <div class="only-on-screen-larger-500px">
+          <p style="font-size: 16px; margin: 6px 0;">Special thanks :</p>
+          
+          <p>Zhao, Jian-Xiang</p>
+          <p><a href="https://github.com/DongDong-Zoez">DongDong</a></p>
+          <p>Gino</p>
+          
+        </div>
       </div>
+
       
     </div>
 
