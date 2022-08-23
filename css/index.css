@@ -47,7 +47,6 @@ body{
 #about-me{
     visibility:visible;
     display: block;
-    max-height: fit-content;
 }
 
 
@@ -135,7 +134,7 @@ body{
     justify-content: center;
     flex-direction: column;
 
-    margin:0.5% 18% 2% 18%;
+    margin:0.5% 20% 2% 20%;
 }
 
 
@@ -231,7 +230,7 @@ body{
 
 .content-card-content-box p{
     font-size:1.2em;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .content-card-content-box br{
@@ -262,7 +261,7 @@ body{
 
 .brief-intro-card-text{
     width: 65%;
-    margin: 0 auto 0 2%;
+    margin: 0 0 0 2%;
 }
 
 
