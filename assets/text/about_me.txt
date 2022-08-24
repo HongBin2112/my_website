@@ -29,6 +29,7 @@ $</div>
 $
 $
 $<div class="brief-intro-card-box">
+$<img id="IC" src="./assets/layout_5to32.png" class="brief-intro-card-img" alt="IC layout image.">
 $<div class="brief-intro-card-text">
 $
 $<h3>2.IC設計知識、流程及相關工具軟體</h3>
@@ -41,7 +42,6 @@ $<h3>2.IC設計知識、流程及相關工具軟體</h3>
 非常歡迎透過E-mail來進行聯繫。我會盡全力來講述我所知道的內容。
 
 $</div>
-$<img id="IC" src="./assets/layout_5to32.png" class="brief-intro-card-img" alt="IC layout image.">
 $</div>
 $
 3.Verilog 
