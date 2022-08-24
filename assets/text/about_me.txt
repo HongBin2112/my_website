@@ -26,8 +26,8 @@ $<h3>1.Python </h3>
 $</div>
 $<img id="python-logo" src="./assets/python-logo-only.png" class="brief-intro-card-img" alt="python logo.">
 $</div>
-$
-$
+
+
 $<div class="brief-intro-card-box">
 $<img id="IC" src="./assets/layout_5to32.png" class="brief-intro-card-img" alt="IC layout image.">
 $<div class="brief-intro-card-text">
@@ -43,7 +43,8 @@ $<h3>2.IC設計知識、流程及相關工具軟體</h3>
 
 $</div>
 $</div>
-$
+
+
 3.Verilog 
 Verilog是一種主要用於在積體電路設計的硬體描述語言。
 非常簡單的說，Verilog就是用像如C等程式語言的方式，來「描述」電子系統的功能。
@@ -51,15 +52,17 @@ Verilog是一種主要用於在積體電路設計的硬體描述語言。
 我主要於學校「積體電路設計實驗」課程學習Verilog。透過該課程的作業及期末報告，讓我對Verilog打下了一定基礎。
 關於更詳細的實作例子與過程，可以到下方「實作筆記」處的「積體電路設計實驗Final Project」做閱讀。
 
+
 4.其他
 - 程式語言如：C、C++等，於各課程中有使用，有一定基礎。 
 - 現在正在學習的Html, CSS, JavaScript。
 以及其他我學過，但是在撰寫時可能忘記的一些東西。
 
+
 若是對於其中有感興趣、想多瞭解，或是覺得難看懂、不清楚的部份，
 非常歡迎透過E-mail(於頁尾)來進行聯繫、討論及給予指教。
 
------
+$<hr>
 
 得益於網路的快速發展，許多我小時候難以觸及、或是根本沒聽過的知識及新鮮事物，如今已近在咫尺。
 而我體內的好奇心及求知慾自然不會放過這種，可以簡單且快速取得各類知識的網路寶庫。
@@ -68,5 +71,4 @@ Verilog是一種主要用於在積體電路設計的硬體描述語言。
 缺乏系統性的統整與學習，使我自學學到的內容多為該領域基礎或皮毛，較少有進階的應用。
 
 因此，非常希望有朋友們能給予些指點和教導。另外如果只是單純感興趣的話，也同樣非常歡迎來一起討論。:D
-
 
