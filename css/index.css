@@ -228,6 +228,12 @@ body{
     margin-bottom: 26px;
 }
 
+.content-card-content-box h3{
+    font-size:1.6em;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
 .content-card-content-box p{
     font-size:1.2em;
     margin-bottom: 6px;
@@ -255,13 +261,13 @@ body{
 .brief-intro-card-img{
     width: 22.5%;
     max-height: 330px;
-    margin: 0 auto 0 2%;
+    margin: 2% 2.5% 0 2.5%;
 
 }
 
 .brief-intro-card-text{
     width: 65%;
-    margin: 0 0 0 2%;
+    margin: 0 2% 0 2%;
 }
 
 

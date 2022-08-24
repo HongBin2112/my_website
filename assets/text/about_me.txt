@@ -14,8 +14,6 @@
 
 $<div class="brief-intro-card-box">
 $
-$<img id="python-logo" src="./assets/python-logo-only.png" class="brief-intro-card-img" alt="python logo.">
-$
 $<div class="brief-intro-card-text">
 $
 $<h3>1.Python </h3>
@@ -26,9 +24,14 @@ $<h3>1.Python </h3>
 關於我自學Python的各種相關應用，可以到「實作筆記」處來閱讀。
 
 $</div>
+$<img id="python-logo" src="./assets/python-logo-only.png" class="brief-intro-card-img" alt="python logo.">
 $</div>
-
-2.IC設計知識、流程及相關工具軟體
+$
+$
+$<div class="brief-intro-card-box">
+$<div class="brief-intro-card-text">
+$
+$<h3>2.IC設計知識、流程及相關工具軟體</h3>
 於學校學習基礎的IC設計知識和流程(design, simulation, layout, RC-extraction)。
 使用且熟悉相關的工具軟體 (Laker/Virtuoso 、Hspice等)，
 也熟悉layout verification (DRC, LVS)部分。
@@ -37,6 +40,10 @@ $</div>
 如果對IC設計知識、流程感興趣、或是想瞭解一些大概，
 非常歡迎透過E-mail來進行聯繫。我會盡全力來講述我所知道的內容。
 
+$</div>
+$<img id="IC" src="./assets/layout_5to32.png" class="brief-intro-card-img" alt="IC layout image.">
+$</div>
+$
 3.Verilog 
 Verilog是一種主要用於在積體電路設計的硬體描述語言。
 非常簡單的說，Verilog就是用像如C等程式語言的方式，來「描述」電子系統的功能。
