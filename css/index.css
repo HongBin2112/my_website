@@ -55,10 +55,16 @@ body{
     display: none;
 }
 
+#my-projects{
+    visibility:hidden;
+    display: none; 
+}
+
 #others{
     visibility:hidden;
     display: none;
 }
+
 
 
 /* ID -> title */
