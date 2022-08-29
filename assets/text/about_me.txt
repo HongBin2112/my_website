@@ -68,12 +68,12 @@ $<h3>4.其他</h3>
 - 程式語言如：C、C++等，於各課程中有使用，有一定基礎。 
 
 - 現在正在學習的Html, CSS, JavaScript。這個網頁便是我學習的成果。
-(Source code : https://github.com/HongBin2112/my_website)
 
 以及其他我學過，但是在撰寫時可能忘記的一些東西。
 
 $</div>
 $</div>
+
 
 若是對於其中有感興趣、想多瞭解，或是覺得難看懂、不清楚的部份，
 非常歡迎透過E-mail : benson890720@gmail.com 來進行聯繫、討論及給予指教。
