@@ -45,7 +45,10 @@ $<h3>2.IC設計知識、流程及相關工具軟體</h3>
 $</div>
 $</div>
 
-
+$<div class="brief-intro-card-box">
+$
+$<div class="brief-intro-card-text">
+$
 $<h3>3.Verilog </h3>
 Verilog是一種主要用於在積體電路設計的硬體描述語言。
 非常簡單的說，Verilog就是用像如C等程式語言的方式，來「描述」電子系統的功能。
@@ -53,13 +56,24 @@ Verilog是一種主要用於在積體電路設計的硬體描述語言。
 我主要於學校「積體電路設計實驗」課程學習Verilog。透過該課程的作業及期末報告，讓我對Verilog打下了一定基礎。
 關於更詳細的實作例子與過程，可以到「實作筆記」處的「積體電路設計實驗Final Project」做閱讀。
 
+$</div>
+$<img id="verilog_intro_img" src="./assets/verilog_demo.png" class="brief-intro-card-img" alt="verilog intro img.">
+$</div>
 
+$<div class="brief-intro-card-box">
+$<img id="my_website_img" src="./assets/my_website.png" class="brief-intro-card-img" alt="my website img.">
+$<div class="brief-intro-card-text">
+$
 $<h3>4.其他</h3>
 - 程式語言如：C、C++等，於各課程中有使用，有一定基礎。 
-- 現在正在學習的Html, CSS, JavaScript。這個網頁便是我學習的成果。(Source code : https://github.com/HongBin2112/my_website)
+
+- 現在正在學習的Html, CSS, JavaScript。這個網頁便是我學習的成果。
+(Source code : https://github.com/HongBin2112/my_website)
 
 以及其他我學過，但是在撰寫時可能忘記的一些東西。
 
+$</div>
+$</div>
 
 若是對於其中有感興趣、想多瞭解，或是覺得難看懂、不清楚的部份，
 非常歡迎透過E-mail : benson890720@gmail.com 來進行聯繫、討論及給予指教。
