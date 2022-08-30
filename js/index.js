@@ -2,9 +2,12 @@ const repo_api_url_base = "https://api.github.com/repos/HongBin2112/my_website/c
 const about_me_dl_url = "https://raw.githubusercontent.com/HongBin2112/my_website/main/assets/text/about_me.txt";
 
 
-
+// render
 set_greetings();
 set_about_me_text();
+
+
+
 
 
 
@@ -62,7 +65,7 @@ function get_about_me_text(){
     let about_me_txt = fetch_githubfile(about_me_dl_url).then((contents) => {
         return contents.text();
     }).catch((error) => {
-        console.log(`File to txt Error: ${error}`);
+        console.log(`File to Text Error: ${error}`);
     })
 
     return about_me_txt;

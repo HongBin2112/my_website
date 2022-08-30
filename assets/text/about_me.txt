@@ -54,7 +54,7 @@ Verilog是一種主要用於在積體電路設計的硬體描述語言。
 非常簡單的說，Verilog就是用像如C等程式語言的方式，來「描述」電子系統的功能。
 
 我主要於學校「積體電路設計實驗」課程學習Verilog。透過該課程的作業及期末報告，讓我對Verilog打下了一定基礎。
-關於更詳細的實作例子與過程，可以到「實作筆記」處的「積體電路設計實驗Final Project」做閱讀。
+關於較詳細的實作例子與過程，可以到「實作筆記」處的「積體電路設計實驗Final Project」做閱讀。
 
 $</div>
 $<img id="verilog_intro_img" src="./assets/verilog_demo.png" class="brief-intro-card-img" alt="verilog intro img.">

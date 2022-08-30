@@ -1,0 +1,13 @@
+題目為：512 Bits ROM Macro
+
+除電路架構由課程給予，我們於作業中實作了從：
+- 電路功能、電路元件尺寸參數等調整開始，完成presim。
+- Layout的繪製、layout verification (DRC, LVS)、parasitic Extraction (PEX)。
+- PEX完後進行postsim，量測紀錄電路的表現數據。
+最後完成報告的撰寫。
+
+我在小組中的負責工作為：
+1. 電路功能、電路元件MOS尺寸參數等調整
+2. 全部的Layout繪製(除ROM array為課程給予)
+
+「關於我」欄位中的「IC設計知識、流程及相關工具軟體」，便是於此作業及課程中學習並奠定了基礎。

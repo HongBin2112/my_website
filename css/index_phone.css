@@ -142,6 +142,7 @@
     .brief-intro-card-img{
         width: auto;
         max-height: 330px;
+        max-width: 100%;
         margin: 2% auto;
     }
 
