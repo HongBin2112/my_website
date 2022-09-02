@@ -128,22 +128,33 @@
 
         </div>
 
-
       </div>
+
+
+
 
       <div id="my-projects" class="content-card-box">
         <h1> 實作筆記 My projects </h1>
         <hr> 
-
-        <div class="content-card-content-box">
-
-          <div id="my-projects-text">     
-            <h2>Loading....</h2>
+        <br>
+        <div id="my-projects-content">     
+          <div v-for="prop in cards">
+            <card-template 
+              v-bind:title="prop.title"
+              v-bind:content="prop.content"
+              v-bind:image-path="prop.imagePath"
+              v-bind:image-alt="prop.imageAlt"
+            >
+            </card-template>
+            <br>
           </div>
-
         </div>
 
+
+
       </div>
+
+
 
 
       <div id="others" class="content-card-box">
@@ -210,9 +221,6 @@
     <div id="footer" class="footer-box">
       <div id="footer-email" class="footer-content-box">
         <p>
-          <!-- 
-            <img id="footer-email-icon" src="./assets/email_icon.png" class="img-fluid" alt="footer content email icon.">
-          -->
           ✉️ E-mail : benson890720@gmail.com
         </p>
       </div>
@@ -246,5 +254,7 @@
     
   <script src="./js/index.js"> </script>
   <script src="./js/index_onclick.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="./js/render_vue.js"></script>
 
 </html>

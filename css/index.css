@@ -267,14 +267,60 @@ body{
 .brief-intro-card-img{
     width: 22.5%;
     max-height: 330px;
-    margin: 2% 2.5% 0 2.5%;
+    margin: 2% 2.5% 2% 2.5%;
 
+    transition: 0.6s;
+}
+
+.brief-intro-card-img:hover{
+    transform : scale(1.08);
 }
 
 .brief-intro-card-text{
     width: 65%;
     margin: 0 2% 0 2%;
 }
+
+
+
+
+
+
+.projects-brief-intro-card-box{
+    margin: 2% 0%;
+    padding: 1% 0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; 
+
+    border-style: solid;
+    border-radius: 10px;
+    border-width:3px;
+    /*border-color:rgba(76, 90, 85, 0.719);*/
+}
+
+.projects-brief-intro-card-box .brief-intro-card-text{
+    margin: 2%;
+}
+
+
+.projects-brief-intro-card-box hr{
+    margin: 16px 0;
+}
+
+.projects-brief-intro-card-box h3{
+    font-weight: bold;
+    font-size:2em;
+    margin-bottom: 12px;
+}
+
+.projects-brief-intro-card-box p{
+    font-size:1.2em;
+    margin-bottom: 4px;
+}
+
 
 
 
@@ -309,10 +355,6 @@ body{
     align-items: center;
 }
 
-#footer-email-icon{
-    margin-right: 4px;
-    height:30px;
-}
 
 #special-thanks p{
     font-size: 14px;
