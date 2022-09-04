@@ -122,9 +122,28 @@ body{
 
 
 
+#my-projects.content-card-box{
+    padding: 2.5% 2.5%;
+}
 
+#my-projects h1{
+    margin-left: 3%;
+}
+#my-projects hr{
+    margin-left: 3%;
+}
+
+
+#my-projects-content .split-hr{
+    text-align: center;
+    width: 80%;
+    margin: 12px auto;
+    border-top: 5px double; 
+}
 #my-projects-content hr{
-    margin: 16px 0;
+    text-align: center;
+    width: 100%;
+    margin: 16px auto;
 }
 #my-projects-content p{
     font-size:1.2em;
@@ -316,7 +335,7 @@ body{
 }
 
 .projects-brief-intro-card-box .brief-intro-card-text{
-    margin: 2%;
+    margin: 2% 3% 2% 2%;
 }
 
 
@@ -340,17 +359,33 @@ body{
     width: 100%;
 }
 
+.projects-brief-intro-card-box .brief-intro-card-text{
+    width: 85%;
+}
+
+
+
+
+
+
+
+
 
 /* footer */ 
 .footer-box{
     width: 100%;
     height: 16%;
+
+    min-height: 150px;
+
     background-color: #0b3e34a6;
     color: #FFFFFF;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+
 }
 
 .footer-box p{
@@ -362,14 +397,14 @@ body{
 }
 
 .footer-content-box{
-    margin: 2.8% 2.5%;
+    margin: 2.8% 0;
     /*margin-bottom: 3.5%;*/
     width: auto;
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
 

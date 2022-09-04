@@ -117,28 +117,15 @@
       </div>
 
 
-      <div id="about-this-page" class="content-card-box">
-        <h1> 關於網頁  About this page</h1>
-        <hr>
-
-        <div class="content-card-content-box">
-          <div id="about-this-page-text">
-            <h2>Loading....</h2>
-          </div>
-
-        </div>
-
-      </div>
-
-
-
 
       <div id="my-projects" class="content-card-box">
+
         <h1> 實作筆記 My projects </h1>
         <hr> 
         <br>
         <div id="my-projects-content">     
           <div v-for="prop in cards">
+            <br>
             <card-template 
               v-bind:title="prop.title"
               v-bind:content="prop.content"
@@ -148,10 +135,9 @@
             >
             </card-template>
             <br>
+            <hr class="split-hr">
           </div>
         </div>
-
-
 
       </div>
 
@@ -164,29 +150,9 @@
 
         <div class="content-card-content-box">
           <div id="others-text">
-            <h4> My E-mail : benson890720@gmail.com</h4>
             <br>
-
-            
-            <div class="brief-intro-card-box">
-              
-              <div class="brief-intro-card-text">
-                <h3>1.Python</h3>
-                <p>除了在學校的實作專題、IC LAB等課程，因學習『機器學習』以及『數位訊號處理』相關的內容有使用。</p>
-                <p>更多的是於課外時間自學的各種相關應用。</p>
-                <p>因此在一定程度上相當熟悉python，懂得尋找相關套件(Package)以自我學習來解決實作上遇到的問題。</p>
-                <br>
-                <p>關於我自學Python的各種相關應用，可以到下方「實作筆記」處來閱讀。</p>
-                <br>
-              </div>
-
-              <img id="python-logo" src="./assets/python-logo-only.png" class="brief-intro-card-img" alt="python logo.">
-
-            </div>
-
-
-
-
+            <h4> E-mail : benson890720@gmail.com</h4>
+            <h4> github : <a href="https://github.com/HongBin2112/my_website">https://github.com/HongBin2112/my_website</a></h4>
 
 
           </div>
