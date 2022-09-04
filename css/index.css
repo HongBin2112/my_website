@@ -123,6 +123,20 @@ body{
 
 
 
+#my-projects-content hr{
+    margin: 16px 0;
+}
+#my-projects-content p{
+    font-size:1.2em;
+    margin-bottom: 4px;
+}
+#my-projects-content h3{
+    font-weight: bold;
+    font-size:2em;
+    margin-bottom: 12px;
+}
+
+
 
 
 
@@ -306,22 +320,25 @@ body{
 }
 
 
-.projects-brief-intro-card-box hr{
-    margin: 16px 0;
+.projects-brief-intro-card-box-column{
+    margin: 2% 0%;
+    padding: 1% 0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+
+    border-style: solid;
+    border-radius: 10px;
+    border-width:3px;
 }
 
-.projects-brief-intro-card-box h3{
-    font-weight: bold;
-    font-size:2em;
-    margin-bottom: 12px;
+.projects-brief-intro-card-box-column .brief-intro-card-img{
+    max-height: 100%;
+    max-width: 80%;
+    width: 100%;
 }
-
-.projects-brief-intro-card-box p{
-    font-size:1.2em;
-    margin-bottom: 4px;
-}
-
-
 
 
 /* footer */ 

@@ -2,10 +2,10 @@
 
 //========= brief intro card template =========
 card_template = `
-  <div class="projects-brief-intro-card-box"> 
+  <div v-bind:class="cardBoxClass"> 
 
     <img class="brief-intro-card-img" v-bind:src="imagePath" v-bind:alt="imageAlt">
-
+  
     <div class="brief-intro-card-text">
       <h3>{{ title }}</h3>
       <hr>
@@ -15,8 +15,12 @@ card_template = `
 
   </div>
 `
+
+
+
+
 var card_template = Vue.component('card-template', {  
-    props: ["title", "content", "imagePath", "imageAlt"],
+    props: ["title", "content", "imagePath", "imageAlt", "cardBoxClass"],
     template: card_template, 
 
 });
@@ -27,14 +31,16 @@ let card_vlsi_prop = {
   title: "積體電路設計導論 Final Project",
   content: "Loading...", 
   imagePath: "./assets/layout_5to32.png", 
-  imageAlt: "VLSI content image."
+  imageAlt: "VLSI content image.",
+  cardBoxClass: "projects-brief-intro-card-box"
 }
 
 let card_iclab_prop = {
   title: "積體電路設計實驗 Final Project",
   content: "Loading...", 
   imagePath: "./assets/ic_lab_fp_hardware_architecture.png", 
-  imageAlt: "IC LAB content image." 
+  imageAlt: "IC LAB content image." ,
+  cardBoxClass: "projects-brief-intro-card-box-column"
 }
 
 
@@ -60,7 +66,7 @@ let load_cards_content = new Promise((resolve, reject) => {
 
 
 load_cards_content.then( (response) => {
-  //console.log(response);
+  
   var cards_vue = new Vue({
     el: "#my-projects-content",
     data: {

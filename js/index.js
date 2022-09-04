@@ -39,7 +39,7 @@ function greetings(){
 }
 
 
-function fetch_githubfile(github_api_url) {
+function fetch_github_file(github_api_url) {
 
 	const headers = new Headers();
 	headers.append('Accept', 'application/vnd.github.v3+json');
@@ -62,7 +62,7 @@ function fetch_githubfile(github_api_url) {
 
 
 function get_about_me_text(){
-    let about_me_txt = fetch_githubfile(about_me_dl_url).then((contents) => {
+    let about_me_txt = fetch_github_file(about_me_dl_url).then((contents) => {
         return contents.text();
     }).catch((error) => {
         console.log(`File to Text Error: ${error}`);
