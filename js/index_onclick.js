@@ -11,7 +11,7 @@ options_list_element.addEventListener('click', function(e){
 function content_options_onclick(clicked_btn_option_id){
     
     if(!clicked_btn_option_id || clicked_btn_option_id == "content-options-list"){
-        //if clicked_btn_option_id undefined
+        //if clicked_btn_option_id == undefined
         // or id == content-options-list
         //break
         return 0;

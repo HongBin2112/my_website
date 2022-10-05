@@ -1,5 +1,5 @@
 
-
+Vue.config.productionTip = false;
 //========= brief intro card template =========
 card_template = `
   <div v-bind:class="cardBoxClass"> 
