@@ -27,23 +27,35 @@ var card_template = Vue.component('card-template', {
 
 
 //=====set items======
-let card_vlsi_prop = {
-  title: "積體電路設計導論 Final Project",
-  content: "Loading...", 
-  imagePath: "./assets/layout_5to32.png", 
-  imageAlt: "VLSI content image.",
-  cardBoxClass: "projects-brief-intro-card-box"
-}
-
-let card_iclab_prop = {
-  title: "積體電路設計實驗 Final Project",
-  content: "Loading...", 
-  imagePath: "./assets/ic_lab_fp_hardware_architecture.png", 
-  imageAlt: "IC LAB content image." ,
-  cardBoxClass: "projects-brief-intro-card-box-column"
+function card_prop(title, content, imagePath, imageAlt, cardBoxClass){
+  this.title = title;
+  this.content = content;
+  this.imagePath = imagePath;
+  this.imageAlt = imageAlt;
+  this.cardBoxClass = cardBoxClass;
 }
 
 
+let card_vlsi_prop = new card_prop(
+  title = "積體電路設計導論 Final Project",
+  content = "Loading...", 
+  imagePath = "./assets/layout_5to32.png", 
+  imageAlt = "VLSI content image.",
+  cardBoxClass = "projects-brief-intro-card-box"
+)
+
+
+let card_iclab_prop = new card_prop(
+  title = "積體電路設計實驗 Final Project",
+  content = "Loading...", 
+  imagePath = "./assets/ic_lab_fp_hardware_architecture.png", 
+  imageAlt = "IC LAB content image." ,
+  cardBoxClass = "projects-brief-intro-card-box-column"
+)
+
+
+// console.log("card_vlsi_prop", card_vlsi_prop);
+// console.log("card_iclab_prop", card_iclab_prop);
 
 
 //=====fetch content & render======

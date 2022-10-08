@@ -29,10 +29,12 @@ const back_to_top = Vue.extend({
 
     data(){
         return {
-            anchor:"#tag-body",
+            anchor:"#body-top",
             text:"Back to top ▴"      
         }
-    }
+    },
+
+
 })
 
 
