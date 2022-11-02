@@ -8,3 +8,7 @@
  我的個人網頁，使用GitHub Pages來佈署，為靜態的一頁式網站(One-page-Web)。  
   
  這個網站也是自己自學Html, CSS, JS的小小入門應用，其中也用到了一小部分的Vue。
+  
+
+<img title="my page" alt="my page" height="400" style="text-align: center;" src="https://github.com/HongBin2112/my_website/blob/main/assets/my_website.png">
+
